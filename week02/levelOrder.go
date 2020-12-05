@@ -24,7 +24,7 @@ func PrintArr2(arr [][]int){
 func levelOrder(root *Node) [][]int {
 	result := make([][]int, 0, 1000)
 	if root == nil {
-		return result;
+		return result
 	}
 	q := []*Node{root}
 	for len(q) > 0 {
